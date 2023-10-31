@@ -5,11 +5,11 @@
 </head>
 <body>
     <?php
-            include_once("../dbConnection/mysqlconfig_connection.php");
+            include_once("../dbConnecttion\mysql_config_connection.php");
 
             if(isset($_POST['Submit'])) {
                 $code = $_POST['code'];
-                $name $_POST['name'];
+                $name = $_POST['name'];
 
                 if(empty($code) || empty($name)) {
 
