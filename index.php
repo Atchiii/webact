@@ -1,5 +1,5 @@
 <?php
-    include_once("dbConnection/mysqlconfig_connection.php");
+    include_once("dbConnecttion\mysql_config_connection.php");
 ?>
 
 <!DOCTYPE html>
