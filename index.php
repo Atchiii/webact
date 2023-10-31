@@ -18,6 +18,15 @@
             <td>Subject Name</td>
             <td>Action</td>
         </tr>
+        <?php
+            while($res = mysqli_fetch_array($result)){
+                echo "<tr>";
+                echo "<td>".$res['Subject_id']."</td>";
+                echo "<td>".$res['Subject_code']."</td>";
+                echo "<td>".$res['Subject_name']."</td>";
+               
+            }
+        ?>
     </table>
 </body>
 </html>
