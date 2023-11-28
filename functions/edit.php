@@ -20,6 +20,7 @@
         }
         else {
             mysqli_query($dbc, "UPDATE tbls SET Subject_code='$code', Subject_name='$name' WHERE Subject_id='$id'");
+            header("Location: ../index.php");
         }
     }
 ?>
